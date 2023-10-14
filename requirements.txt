@@ -1,2 +1,5 @@
 streamlit
 pyautogen
+python-dotenv
+filelock
+streamlit-extras
