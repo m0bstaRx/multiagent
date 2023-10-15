@@ -14,7 +14,7 @@ import json_handler
 load_dotenv()
 
 openai_apikey = os.getenv("openai_apikey")
-
+#TODO: "Voice control, Turkish translation are top priorities along with bug fixing for Live Mode"
 #The function that conducts the Multi-agent configurations
 def configure_multi_agent(seed=42, 
                         user_proxy_name = "EmreYZ",
