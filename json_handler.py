@@ -1,7 +1,6 @@
 
 import json
 
-
 def review_json(filepath):
     with open(filepath, "r") as tempfile:
         tempdata = json.load(tempfile)
@@ -16,4 +15,10 @@ def review_json(filepath):
         foo = input("Press enter to proceed to next item")
         print("||" * 10)
 
-review_json("new.json")
+# review_json("new.json")
+
+def get_data_from_json(filepath):
+    with open(filepath, "r") as tempfile:
+        tempdata = json.load(tempfile)
+    
+    return tempdata

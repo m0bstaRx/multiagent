@@ -3,3 +3,4 @@ pyautogen
 python-dotenv
 filelock
 streamlit-extras
+openai
